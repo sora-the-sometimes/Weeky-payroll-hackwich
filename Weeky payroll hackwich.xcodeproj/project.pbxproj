@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D3D70B28E1F09400202EE0 /* Weeky_payroll_hackwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3D70A28E1F09400202EE0 /* Weeky_payroll_hackwichApp.swift */; };
+		49D3D70D28E1F09400202EE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3D70C28E1F09400202EE0 /* ContentView.swift */; };
+		49D3D70F28E1F09500202EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D3D70E28E1F09500202EE0 /* Assets.xcassets */; };
+		49D3D71228E1F09500202EE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D3D71128E1F09500202EE0 /* Preview Assets.xcassets */; };
+		49D3D71C28E1F09500202EE0 /* Weeky_payroll_hackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3D71B28E1F09500202EE0 /* Weeky_payroll_hackwichTests.swift */; };
+		49D3D72628E1F09500202EE0 /* Weeky_payroll_hackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3D72528E1F09500202EE0 /* Weeky_payroll_hackwichUITests.swift */; };
+		49D3D72828E1F09500202EE0 /* Weeky_payroll_hackwichUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3D72728E1F09500202EE0 /* Weeky_payroll_hackwichUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49D3D71828E1F09500202EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D3D6FF28E1F09300202EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D3D70628E1F09400202EE0;
+			remoteInfo = "Weeky payroll hackwich";
+		};
+		49D3D72228E1F09500202EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D3D6FF28E1F09300202EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D3D70628E1F09400202EE0;
+			remoteInfo = "Weeky payroll hackwich";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49D3D70728E1F09400202EE0 /* Weeky payroll hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weeky payroll hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D3D70A28E1F09400202EE0 /* Weeky_payroll_hackwichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weeky_payroll_hackwichApp.swift; sourceTree = "<group>"; };
+		49D3D70C28E1F09400202EE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49D3D70E28E1F09500202EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49D3D71128E1F09500202EE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49D3D71728E1F09500202EE0 /* Weeky payroll hackwichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weeky payroll hackwichTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D3D71B28E1F09500202EE0 /* Weeky_payroll_hackwichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weeky_payroll_hackwichTests.swift; sourceTree = "<group>"; };
+		49D3D72128E1F09500202EE0 /* Weeky payroll hackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weeky payroll hackwichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D3D72528E1F09500202EE0 /* Weeky_payroll_hackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weeky_payroll_hackwichUITests.swift; sourceTree = "<group>"; };
+		49D3D72728E1F09500202EE0 /* Weeky_payroll_hackwichUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weeky_payroll_hackwichUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D3D70428E1F09400202EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D3D71428E1F09500202EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D3D71E28E1F09500202EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D3D6FE28E1F09300202EE0 = {
+			isa = PBXGroup;
+			children = (
+				49D3D70928E1F09400202EE0 /* Weeky payroll hackwich */,
+				49D3D71A28E1F09500202EE0 /* Weeky payroll hackwichTests */,
+				49D3D72428E1F09500202EE0 /* Weeky payroll hackwichUITests */,
+				49D3D70828E1F09400202EE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D3D70828E1F09400202EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D3D70728E1F09400202EE0 /* Weeky payroll hackwich.app */,
+				49D3D71728E1F09500202EE0 /* Weeky payroll hackwichTests.xctest */,
+				49D3D72128E1F09500202EE0 /* Weeky payroll hackwichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D3D70928E1F09400202EE0 /* Weeky payroll hackwich */ = {
+			isa = PBXGroup;
+			children = (
+				49D3D70A28E1F09400202EE0 /* Weeky_payroll_hackwichApp.swift */,
+				49D3D70C28E1F09400202EE0 /* ContentView.swift */,
+				49D3D70E28E1F09500202EE0 /* Assets.xcassets */,
+				49D3D71028E1F09500202EE0 /* Preview Content */,
+			);
+			path = "Weeky payroll hackwich";
+			sourceTree = "<group>";
+		};
+		49D3D71028E1F09500202EE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49D3D71128E1F09500202EE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49D3D71A28E1F09500202EE0 /* Weeky payroll hackwichTests */ = {
+			isa = PBXGroup;
+			children = (
+				49D3D71B28E1F09500202EE0 /* Weeky_payroll_hackwichTests.swift */,
+			);
+			path = "Weeky payroll hackwichTests";
+			sourceTree = "<group>";
+		};
+		49D3D72428E1F09500202EE0 /* Weeky payroll hackwichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49D3D72528E1F09500202EE0 /* Weeky_payroll_hackwichUITests.swift */,
+				49D3D72728E1F09500202EE0 /* Weeky_payroll_hackwichUITestsLaunchTests.swift */,
+			);
+			path = "Weeky payroll hackwichUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D3D70628E1F09400202EE0 /* Weeky payroll hackwich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D3D72B28E1F09500202EE0 /* Build configuration list for PBXNativeTarget "Weeky payroll hackwich" */;
+			buildPhases = (
+				49D3D70328E1F09400202EE0 /* Sources */,
+				49D3D70428E1F09400202EE0 /* Frameworks */,
+				49D3D70528E1F09400202EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weeky payroll hackwich";
+			productName = "Weeky payroll hackwich";
+			productReference = 49D3D70728E1F09400202EE0 /* Weeky payroll hackwich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49D3D71628E1F09500202EE0 /* Weeky payroll hackwichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D3D72E28E1F09500202EE0 /* Build configuration list for PBXNativeTarget "Weeky payroll hackwichTests" */;
+			buildPhases = (
+				49D3D71328E1F09500202EE0 /* Sources */,
+				49D3D71428E1F09500202EE0 /* Frameworks */,
+				49D3D71528E1F09500202EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D3D71928E1F09500202EE0 /* PBXTargetDependency */,
+			);
+			name = "Weeky payroll hackwichTests";
+			productName = "Weeky payroll hackwichTests";
+			productReference = 49D3D71728E1F09500202EE0 /* Weeky payroll hackwichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49D3D72028E1F09500202EE0 /* Weeky payroll hackwichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D3D73128E1F09500202EE0 /* Build configuration list for PBXNativeTarget "Weeky payroll hackwichUITests" */;
+			buildPhases = (
+				49D3D71D28E1F09500202EE0 /* Sources */,
+				49D3D71E28E1F09500202EE0 /* Frameworks */,
+				49D3D71F28E1F09500202EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D3D72328E1F09500202EE0 /* PBXTargetDependency */,
+			);
+			name = "Weeky payroll hackwichUITests";
+			productName = "Weeky payroll hackwichUITests";
+			productReference = 49D3D72128E1F09500202EE0 /* Weeky payroll hackwichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D3D6FF28E1F09300202EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					49D3D70628E1F09400202EE0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					49D3D71628E1F09500202EE0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 49D3D70628E1F09400202EE0;
+					};
+					49D3D72028E1F09500202EE0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 49D3D70628E1F09400202EE0;
+					};
+				};
+			};
+			buildConfigurationList = 49D3D70228E1F09400202EE0 /* Build configuration list for PBXProject "Weeky payroll hackwich" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49D3D6FE28E1F09300202EE0;
+			productRefGroup = 49D3D70828E1F09400202EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D3D70628E1F09400202EE0 /* Weeky payroll hackwich */,
+				49D3D71628E1F09500202EE0 /* Weeky payroll hackwichTests */,
+				49D3D72028E1F09500202EE0 /* Weeky payroll hackwichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D3D70528E1F09400202EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D3D71228E1F09500202EE0 /* Preview Assets.xcassets in Resources */,
+				49D3D70F28E1F09500202EE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D3D71528E1F09500202EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D3D71F28E1F09500202EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D3D70328E1F09400202EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D3D70D28E1F09400202EE0 /* ContentView.swift in Sources */,
+				49D3D70B28E1F09400202EE0 /* Weeky_payroll_hackwichApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D3D71328E1F09500202EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D3D71C28E1F09500202EE0 /* Weeky_payroll_hackwichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D3D71D28E1F09500202EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D3D72828E1F09500202EE0 /* Weeky_payroll_hackwichUITestsLaunchTests.swift in Sources */,
+				49D3D72628E1F09500202EE0 /* Weeky_payroll_hackwichUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49D3D71928E1F09500202EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D3D70628E1F09400202EE0 /* Weeky payroll hackwich */;
+			targetProxy = 49D3D71828E1F09500202EE0 /* PBXContainerItemProxy */;
+		};
+		49D3D72328E1F09500202EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D3D70628E1F09400202EE0 /* Weeky payroll hackwich */;
+			targetProxy = 49D3D72228E1F09500202EE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49D3D72928E1F09500202EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49D3D72A28E1F09500202EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D3D72C28E1F09500202EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weeky payroll hackwich/Preview Content\"";
+				DEVELOPMENT_TEAM = HFN24CF56R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bug.Weeky-payroll-hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49D3D72D28E1F09500202EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weeky payroll hackwich/Preview Content\"";
+				DEVELOPMENT_TEAM = HFN24CF56R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bug.Weeky-payroll-hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49D3D72F28E1F09500202EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFN24CF56R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bug.Weeky-payroll-hackwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weeky payroll hackwich.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weeky payroll hackwich";
+			};
+			name = Debug;
+		};
+		49D3D73028E1F09500202EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFN24CF56R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bug.Weeky-payroll-hackwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weeky payroll hackwich.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weeky payroll hackwich";
+			};
+			name = Release;
+		};
+		49D3D73228E1F09500202EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFN24CF56R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bug.Weeky-payroll-hackwichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weeky payroll hackwich";
+			};
+			name = Debug;
+		};
+		49D3D73328E1F09500202EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFN24CF56R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bug.Weeky-payroll-hackwichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weeky payroll hackwich";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D3D70228E1F09400202EE0 /* Build configuration list for PBXProject "Weeky payroll hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D3D72928E1F09500202EE0 /* Debug */,
+				49D3D72A28E1F09500202EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D3D72B28E1F09500202EE0 /* Build configuration list for PBXNativeTarget "Weeky payroll hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D3D72C28E1F09500202EE0 /* Debug */,
+				49D3D72D28E1F09500202EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D3D72E28E1F09500202EE0 /* Build configuration list for PBXNativeTarget "Weeky payroll hackwichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D3D72F28E1F09500202EE0 /* Debug */,
+				49D3D73028E1F09500202EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D3D73128E1F09500202EE0 /* Build configuration list for PBXNativeTarget "Weeky payroll hackwichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D3D73228E1F09500202EE0 /* Debug */,
+				49D3D73328E1F09500202EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D3D6FF28E1F09300202EE0 /* Project object */;
+}
